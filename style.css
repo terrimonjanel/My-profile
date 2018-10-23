@@ -1,0 +1,100 @@
+/*Couleurs de l'arrière plan*/
+
+body {
+	background: #f7d3ba; 
+	color: rgb(0,0,0) ;
+	font-family: Helvetica;
+	font-size: 20px; 
+}
+
+/*Style des modules*/
+h1,h2{
+	font-family: Courier;
+}
+
+h1 {
+	color: black;
+	font-size: 32px;
+}
+
+h2 {
+   color : red;
+   font-size : 24px;
+   font-weight : lighter;
+}
+
+
+/* custom design with class */
+.container {
+	width : 700px;
+	margin: 20px auto;
+}
+
+@media (max-width: 760px) {
+	.container{
+		width: 600px ;
+	}
+
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px ;
+	}
+
+}
+
+
+.card-white {
+	background-color: #f9f9f9;
+	padding:40px;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin:40px 0px;
+	text-align: center;
+	border-radius: 4%;
+}
+
+.img-circle {
+	border-radius: 50%;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+}
+.btn-blue {
+	background-color: red;
+	color: white;
+	padding: 15px 25px ;
+	border-radius: 4px;
+}
+
+.list-inline {
+ list-style: none;
+ padding-left: 0px;
+}
+.list-inline li{
+	display:inline;
+	padding: :10px;
+}
+.list-inline i{
+	font-size:50px;
+	color:black;
+}
+.list-inline i:hover {
+	color:black;
+}
+
+#introduction p {
+	margin-bottom: 50px;
+}
+
+/* Style des liens*/
+
+
+a{
+	text-decoration: none;
+	color: green;
+	transition: color 0,5s ease;
+}
+
+a:hover {
+   color: black;
+}
